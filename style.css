@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+body,button,span{
+    font-family: Montserrat;
+}
+
+.center{
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header{
+    height: 1024px;
+    background-image: url(img/Rectangle\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 217px;
+}
+
+.header__text-big{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.header__text{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px; /* 177.778% */
+}
+
+.header__text-span{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.header__button{
+    width: 234.063px;
+    height: 48.603px;
+    border-radius: 30px;
+    background: #9C0332;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: none;
+}
+
+/* Середина */
+
+.game{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url(img/Rectangle\ 5.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px; 
+}    
+
+.game__img{
+    width: 378px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.game__img-1{
+    background-image: url(img/game1.svg);
+}
+
+.game__img-2{
+    background-image: url(img/game2.svg);
+}
+
+.game__img-3{
+    background-image: url(img/game3.svg);
+}
+
+.game__span{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+}
