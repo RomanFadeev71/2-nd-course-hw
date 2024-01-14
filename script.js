@@ -1,5 +1,8 @@
-alert(10)
-alert(20)
+let x = 10;
+alert(x);
+x = 20;
+alert(x);
+
 let release = alert(`Выпуск первого айфона 29 июня 2007 года`);
 let creator = alert(`Брендан Эйх`);
 
@@ -17,7 +20,7 @@ alert(result);
 
 let e = 9;
 let t = 2;
-let newresult = e / t;
+let newresult = e % t;
 alert(newresult);
 
 let num = 1;
@@ -30,15 +33,22 @@ num--;
 alert(num);
 
 let age = Number(prompt(`Сколько вам лет?`));
-alert(26);
+alert(age);
 
 let user = {
-    name: `Roman`,
+    name: "Roman",
     age: 26,
     isAdmin: true,
-}
-user[cityofresidence] = Moscow;
-alert(user[cityofresidence]);
+};
+
+user["cityofresidence"] = "Moscow";
+
+user[age] = 27;
+
+delete user["cityofresidence"];
 
 let info = prompt("Какую информацию хотите узнать о пользователе?")
 alert(user[info]);
+
+let userName = prompt("Как вас зовут?");
+alert(`Привет,${userName}!`);
