@@ -34,6 +34,32 @@
         justify-content: center;
     }
 
+    .seasons{
+        padding-top: 178px;
+        row-gap: 64px;
+        justify-content: center;
+
+        &__box{
+            align-items: center;
+        }
+
+        &__header{
+            font-size: 32px;
+            text-align: center;
+        }
+
+        &__text{
+            font-size: 14px;
+            line-height: 22px; /* 157.143% */
+            width: 343px;
+            text-align: center;
+        }
+
+        &__img{
+            width: 344px;
+           }
+    }
+
 }
 
 @media (min-width: 375px) and (max-width: 425px) {

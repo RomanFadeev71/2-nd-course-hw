@@ -63,6 +63,7 @@ span {
         font-weight: 400;
         box-sizing: border-box;
         border: none;
+        cursor: pointer;
     }
 }
 
@@ -117,6 +118,48 @@ span {
         line-height: 32px;
         /* 133.333% */
     }
+}
+
+.seasons{
+    padding-top: 282px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &__box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    &__header{
+        color: #FFF;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    &__text{
+        width: 584px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px; /* 177.778% */
+    }
+
+    &__button{
+        width: 234.063px;
+        height: 48.603px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 30px;
+        background: #9C0332;
+        border: none;
+        cursor: pointer;
+    }
+    
 }
 
 @import "mobile";
