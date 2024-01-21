@@ -101,14 +101,27 @@ span {
 
     &__img-1 {
         background-image: url(img/game1.jpg);
+
+        &:hover {
+            border: 3px solid #44D2FF;
+        }
+
     }
 
     &__img-2 {
         background-image: url(img/game2.jpg);
+
+        &:hover {
+            border: 3px solid #44D2FF;
+        }
     }
 
     &__img-3 {
         background-image: url(img/game3.jpg);
+
+        &:hover {
+            border: 3px solid #44D2FF;
+        }
     }
 
     &__span {
@@ -120,35 +133,36 @@ span {
     }
 }
 
-.seasons{
+.seasons {
     padding-top: 282px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
 
-    &__box{
+    &__box {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         gap: 32px;
     }
 
-    &__header{
+    &__header {
         color: #FFF;
         font-size: 48px;
         font-weight: 700;
     }
 
-    &__text{
+    &__text {
         width: 584px;
         color: #FFF;
         font-size: 18px;
         font-weight: 300;
-        line-height: 32px; /* 177.778% */
+        line-height: 32px;
+        /* 177.778% */
     }
 
-    &__button{
+    &__button {
         width: 234.063px;
         height: 48.603px;
         color: #FFF;
@@ -157,9 +171,13 @@ span {
         border-radius: 30px;
         background: #9C0332;
         border: none;
-        cursor: pointer;
-    }
     
+        &:hover {
+         cursor: pointer;
+
+        }
+    }
+
 }
 
 @import "mobile";

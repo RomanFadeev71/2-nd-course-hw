@@ -93,11 +93,20 @@ span {
 .game__img-1 {
   background-image: url(img/game1.jpg);
 }
+.game__img-1:hover {
+  border: 3px solid #44D2FF;
+}
 .game__img-2 {
   background-image: url(img/game2.jpg);
 }
+.game__img-2:hover {
+  border: 3px solid #44D2FF;
+}
 .game__img-3 {
   background-image: url(img/game3.jpg);
+}
+.game__img-3:hover {
+  border: 3px solid #44D2FF;
 }
 .game__span {
   color: #FFF;
@@ -130,7 +139,8 @@ span {
   color: #FFF;
   font-size: 18px;
   font-weight: 300;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
+  /* 177.778% */
 }
 .seasons__button {
   width: 234.063px;
@@ -141,6 +151,8 @@ span {
   border-radius: 30px;
   background: #9C0332;
   border: none;
+}
+.seasons__button:hover {
   cursor: pointer;
 }
 
@@ -172,6 +184,9 @@ span {
   }
   .game__box {
     justify-content: center;
+  }
+  .game__img {
+    width: 100%;
   }
   .seasons {
     padding-top: 178px;
