@@ -62,6 +62,10 @@ span {
   border: none;
   cursor: pointer;
 }
+.header__button:hover {
+  border-radius: 30px;
+  background: #EB443F;
+}
 
 /* Середина */
 .game {
@@ -151,9 +155,11 @@ span {
   border-radius: 30px;
   background: #9C0332;
   border: none;
+  cursor: pointer;
 }
 .seasons__button:hover {
-  cursor: pointer;
+  border-radius: 30px;
+  background: #EB443F;
 }
 
 @media (max-width: 425px) {

@@ -64,6 +64,11 @@ span {
         box-sizing: border-box;
         border: none;
         cursor: pointer;
+
+        &:hover {
+            border-radius: 30px;
+            background: #EB443F;
+        }
     }
 }
 
@@ -171,12 +176,15 @@ span {
         border-radius: 30px;
         background: #9C0332;
         border: none;
-    
-        &:hover {
-         cursor: pointer;
+        cursor: pointer;
 
+        &:hover {
+            border-radius: 30px;
+            background: #EB443F;
         }
+
     }
+
 
 }
 

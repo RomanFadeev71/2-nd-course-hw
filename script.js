@@ -60,7 +60,7 @@ let password = `1234`;
 
 let input = prompt("Введите пароль");
 
-if (input == password) {
+if (input === password) {
     alert(`Пароль введен верно`);
 
 } else {
