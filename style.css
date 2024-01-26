@@ -60,6 +60,11 @@ span {
   font-weight: 400;
   box-sizing: border-box;
   border: none;
+  cursor: pointer;
+}
+.header__button:hover {
+  border-radius: 30px;
+  background: #EB443F;
 }
 
 /* Середина */
@@ -92,11 +97,20 @@ span {
 .game__img-1 {
   background-image: url(img/game1.jpg);
 }
+.game__img-1:hover {
+  border: 3px solid #44D2FF;
+}
 .game__img-2 {
   background-image: url(img/game2.jpg);
 }
+.game__img-2:hover {
+  border: 3px solid #44D2FF;
+}
 .game__img-3 {
   background-image: url(img/game3.jpg);
+}
+.game__img-3:hover {
+  border: 3px solid #44D2FF;
 }
 .game__span {
   color: #FFF;
@@ -104,6 +118,48 @@ span {
   font-weight: 600;
   line-height: 32px;
   /* 133.333% */
+}
+
+.seasons {
+  padding-top: 282px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.seasons__box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 32px;
+}
+.seasons__header {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+}
+.seasons__text {
+  width: 584px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  /* 177.778% */
+}
+.seasons__button {
+  width: 234.063px;
+  height: 48.603px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  cursor: pointer;
+}
+.seasons__button:hover {
+  border-radius: 30px;
+  background: #EB443F;
 }
 
 @media (max-width: 425px) {
@@ -134,6 +190,30 @@ span {
   }
   .game__box {
     justify-content: center;
+  }
+  .game__img {
+    width: 100%;
+  }
+  .seasons {
+    padding-top: 178px;
+    row-gap: 64px;
+    justify-content: center;
+  }
+  .seasons__box {
+    align-items: center;
+  }
+  .seasons__header {
+    font-size: 32px;
+    text-align: center;
+  }
+  .seasons__text {
+    font-size: 14px;
+    line-height: 22px; /* 157.143% */
+    width: 343px;
+    text-align: center;
+  }
+  .seasons__img {
+    width: 344px;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
